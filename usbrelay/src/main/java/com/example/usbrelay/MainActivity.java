@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // 如果找到了这个设备
                 if (usbDevice.getProductId() == 29987 && usbDevice.getVendorId() == 6790) {
-                    authorizedFlag = usbManager.hasPermission(usbDevice);
+                    authorizedFlag = usbManager.hasPermission(usbDevice);  // Returns true if the caller has permission to access the device
 
                     // 如果没权限，广播要权限
                     if (!authorizedFlag) {

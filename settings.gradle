@@ -1,0 +1,4 @@
+include ':usbrelay'
+include ':mylibrary'
+include ':mcprint2'
+rootProject.name = "AndroidDemo"

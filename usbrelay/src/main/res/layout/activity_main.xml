@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/v_main_top"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="テストページ"
+        android:textColor="@color/colorAccent"
+        android:textSize="80sp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/btn_main_search_printer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="USB RELAY ON"
+        android:textSize="30sp"
+        android:onClick="relayOn"
+        />
+
+    <Button
+        android:id="@+id/btn_main_print_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="USB RELAY OFF"
+        android:textSize="30sp"
+        android:onClick="relayOff"
+        />
+
+</LinearLayout>

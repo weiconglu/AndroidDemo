@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SimpleComponentActivity">
+
+    <TextView
+        android:id="@+id/tv_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#777777"
+        android:text="这是TextView的内容"
+        android:textColor="#ff0000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入手机号"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:onClick="submit"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_icon"
+        android:foreground="@drawable/foreground_icon"
+        ></ImageView>
+
+
+
+
+</LinearLayout>

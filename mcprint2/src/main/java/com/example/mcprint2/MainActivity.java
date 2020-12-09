@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.mcprint2.printer.PrinterStatus;
 import com.example.mcprint2.printer.utils.PrintUtils;
-import com.example.mylibrary.TipsUtils;
+import com.example.mylibrary.TipUtils;
 import com.starmicronics.stario.PortInfo;
 import com.starmicronics.stario.StarIOPort;
 import com.starmicronics.stario.StarIOPortException;
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             Log.e("PRINTER_INFO", "Model Name: " + port.getModelName());
         }
 
-        TipsUtils.shortTips(this, "イントラネットのプリンタを探している");
+        TipUtils.shortTips(this, "イントラネットのプリンタを探している");
 
     } catch (StarIOPortException e) {
         // An error occurred.

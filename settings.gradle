@@ -1,3 +1,7 @@
+include ':day04'
+include ':day03'
+include ':day02'
+include ':day01'
 include ':usbrelay'
 include ':mylibrary'
 include ':mcprint2'

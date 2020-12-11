@@ -17,13 +17,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="一般启动"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:onClick="start1"/>
 
     <Button
         android:id="@+id/btn_main_start2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="带回调启动"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:onClick="start2"/>
 
 </LinearLayout>

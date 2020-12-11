@@ -1,5 +1,5 @@
 # AndroidDemo
-day01<br>
+day01
     startActivity
     startActivityForResult
 day03

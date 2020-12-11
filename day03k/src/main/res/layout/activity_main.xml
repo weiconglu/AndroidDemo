@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="电话号码："
-            android:textSize="30sp"></TextView>
+            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/et_main_phone_number"
@@ -27,7 +27,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="请输入"
-            android:inputType="number" />
+            android:inputType="phone" />
     </LinearLayout>
 
     <LinearLayout
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="短信内容："
-            android:textSize="30sp"></TextView>
+            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/et_main_msg"
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:onClick="makeCall"
             android:text="打电话"
-            android:textSize="30sp"></Button>
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/btn_main_send_msg"
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:onClick="editMsg"
             android:text="发短信"
-            android:textSize="30sp"></Button>
+            android:textSize="30sp" />
     </LinearLayout>
 
 </LinearLayout>

@@ -35,7 +35,7 @@
         这前景设置的方式有点儿怪
     -->
     <ImageView
-        android:id="@+id/iv_simple_component"
+        android:id="@+id/iv_simple"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:drawable/alert_dark_frame"
@@ -81,6 +81,32 @@
             android:text="确定"
             android:onClick="confirm"/>
 
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男" />
+
+            <RadioButton
+                android:id="@+id/r_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女" />
+        </RadioGroup>
 
     </LinearLayout>
 

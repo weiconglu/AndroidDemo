@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void menuComponentTest(View view) {
+        startActivity(new Intent(this, MenuActivity.class));
     }
 
     public void progressComponentTest(View view) {

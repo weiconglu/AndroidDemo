@@ -41,7 +41,6 @@ public class MenuActivity extends AppCompatActivity {
         TipUtils.shortTips(this, item.getTitle().toString());
         return super.onContextItemSelected(item);
     }
-    //--------------------------------------------------ContextMenu----------------------------------------------------------------------------
 
     //--------------------------------------------------OptionsMenu----------------------------------------------------------------------------
     // 重写onCreateOptionsMenu方法，创建OptionsMenu
@@ -66,6 +65,5 @@ public class MenuActivity extends AppCompatActivity {
         TipUtils.shortTips(this, item.getTitle().toString());
         return super.onOptionsItemSelected(item);
     }
-    //--------------------------------------------------OptionsMenu----------------------------------------------------------------------------
 
 }

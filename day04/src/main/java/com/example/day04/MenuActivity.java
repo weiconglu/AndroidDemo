@@ -36,11 +36,13 @@ public class MenuActivity extends AppCompatActivity {
         menu.add(Menu.NONE, 2, Menu.NONE, "删除3");
     }
 
+    // 重写onContextItemSelected方法，响应上下文菜单选项被选中时的动作
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
         TipUtils.shortTips(this, item.getTitle().toString());
         return super.onContextItemSelected(item);
     }
+    //--------------------------------------------------ContextMenu----------------------------------------------------------------------------
 
     //--------------------------------------------------OptionsMenu----------------------------------------------------------------------------
     // 重写onCreateOptionsMenu方法，创建OptionsMenu
@@ -65,5 +67,6 @@ public class MenuActivity extends AppCompatActivity {
         TipUtils.shortTips(this, item.getTitle().toString());
         return super.onOptionsItemSelected(item);
     }
+    //--------------------------------------------------OptionsMenu----------------------------------------------------------------------------
 
 }

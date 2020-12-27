@@ -76,8 +76,11 @@ public class SimpleComponentActivity extends AppCompatActivity implements Compou
 
     // 提交按钮的监听方法
     public void submit(View view) {
-        TipUtils.shortTips(this, et_simple.getText().toString());
-        et_simple.setText("");
+        String str = et_simple.getText().toString();
+        if (StringUtils.isNotEmpty(str)) {
+            TipUtils.shortTips(this, str);
+        }
+            et_simple.setText("");
     }
 
     // CheckBox监听方法
